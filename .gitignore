@@ -19,3 +19,8 @@ scripts/test-mention-reference.mjs
 ui_ss/
 dist/
 AUDIT_LOG.untracked.md
+
+# Scratch files from unrelated Shopee scraping experiments
+debug-shopee.cjs
+test-cdp-download.cjs
+test_images/

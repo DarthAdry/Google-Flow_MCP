@@ -302,6 +302,30 @@ tests/                       # vitest unit tests: sanitize, validate, job-queue,
 
 ---
 
+## Recent changes (v1.0.1)
+
+- **Probe reliability** — `flow_discover_ui` now waits for panel *content*, not just the container element, so it no longer returns an empty element list while the panel is still rendering.
+- **Import hygiene** — added a test that fails if `src/` imports from `dist/`, keeping the bundle boundary clean.
+- **Lint gate** — ESLint config (`no-unused-vars`, `no-undef`) added, clearing 19 findings; run with `npm run lint`.
+- **Debug-trail retention** — `flow_connect` keeps recent debug context on failure so it's available in `flow_status` after an error, instead of being swept immediately.
+- **CI** — GitHub Actions workflow runs `npm ci`, `npm test`, and `npm run build` on push and pull requests.
+
+Test suite: **127 tests across 21 files** (`npm test`).
+
+---
+
+## Contributing
+
+1. Fork the repo and create a branch: `git checkout -b my-change`
+2. Make your change, then verify: `npm run lint && npm test && npm run build`
+3. Commit and open a pull request
+
+CI runs the same three commands, so a green local run means a green PR.
+
+Please don't commit `config/flow.config.json` or anything containing real Google account details — both are gitignored by design.
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
