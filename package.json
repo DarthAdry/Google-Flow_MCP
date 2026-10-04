@@ -10,16 +10,16 @@
     "browser",
     "automation"
   ],
-  "homepage": "https://github.com/Mitanshp5/Google-Flow_MCP#readme",
+  "homepage": "https://github.com/DarthAdry/Google-Flow_MCP#readme",
   "bugs": {
-    "url": "https://github.com/Mitanshp5/Google-Flow_MCP/issues"
+    "url": "https://github.com/DarthAdry/Google-Flow_MCP/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mitanshp5/Google-Flow_MCP.git"
+    "url": "git+https://github.com/DarthAdry/Google-Flow_MCP.git"
   },
   "license": "MIT",
-  "author": "Mitansh Prajapati",
+  "author": "Mitansh Prajapati (original author), DarthAdry (maintainer)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {

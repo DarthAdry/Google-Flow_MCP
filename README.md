@@ -1,5 +1,11 @@
 # Google Flow Browser MCP
 
+> **Originally created by [Mitanshp5](https://github.com/Mitanshp5).**
+> This repository is a maintained fork — created and maintained by
+> [DarthAdry](https://github.com/DarthAdry). All original credit for the
+> project's design and implementation belongs to Mitanshp5, who authored the
+> original 45 commits. Released under the MIT License (see [LICENSE](LICENSE)).
+
 An MCP (Model Context Protocol) server that lets an AI agent drive
 [Google Flow](https://flow.google.com/) (`flow.google.com`)
 through your own logged-in Chrome profile — generating images, videos,
@@ -44,7 +50,7 @@ sharing involved.
 ### 1. Clone and install dependencies
 
 ```bash
-git clone https://github.com/Mitanshp5/Google-Flow_MCP.git
+git clone https://github.com/DarthAdry/Google-Flow_MCP.git
 cd Google-Flow_MCP
 npm install
 ```
